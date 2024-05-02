@@ -1,0 +1,236 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --color-white: #fff;
+  --color-issabeline: #eeeded;
+  --color-spanish-grey: #989797;
+  --color-coral: #FA824C;
+  --color-buff: #F1DD7B;
+  --color-vanilla: #F5E7A1;
+  --color-flame: #E4572E;
+  --color-ligh-red-ochre: #E87554;
+  --color-pastel-pink: #F2B2A0;
+  --color-shiny-shamrock: #4CA866;
+  --color-turquoise-green: #9DCFAB;
+  --color-pastel-grey: #8DDFC7;
+  --color-blue-de-france: #3C91E6;
+  --color-blue-jean: #5FA5EA;
+  --color-jordy-blue: #82B9EF;
+  --color-black: #000000;
+  --color-outer-space: #454545;
+  --color-quick-silver: #A2A2A2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*RESET DE LOS ELEMTOS <a> EN EL MENU DE NAVEGACIÓN*/
+a {
+  text-decoration: none;
+}
+
+.nav__link {
+  color: var(--color-spanish-grey);
+  margin: 1rem;
+}
+
+body {
+  font-family: "Pt mono", "Roboto";
+}
+
+.nav__button-first--color-transparent {
+  position: absolute;
+  right: 18%;
+  padding: 0.5%;
+  background-color: var(--color-white);
+  color: var(--color-spanish-grey);
+  border: 1px solid var(--color-spanish-grey);
+}
+
+.nav__button-first--color-transparent:hover {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+}
+
+.nav__button-second--color-green {
+  position: absolute;
+  right: 6%;
+  padding: 0.5% 1rem;
+  color: white;
+  background-color: var(--color-shiny-shamrock);
+}
+
+.nav__button-second--color-green:hover {
+  background-color: var(--color-turquoise-green);
+  color: var(--color-outer-space);
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+  height: 12%;
+  padding: 2rem;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle; /* Alinear verticalmente los elementos */
+  width: 9%;
+}
+
+.nav {
+  display: inline-block;
+  width: 90%;
+}
+
+.logo__imagen {
+  width: 20%;
+  margin-left: 50%;
+}
+
+main {
+  position: relative;
+}
+
+.contenedor__img {
+  width: 100%;
+}
+
+.contenedor {
+  position: relative;
+  width: 70%;
+}
+
+/*SECCIÓN CONTAINER - INFORMACIÓN*/
+.info-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 15px;
+}
+
+.info-container__item {
+  width: 30%;
+  font-size: 80%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info-container__cantidad {
+  font-size: 3rem;
+}
+
+/*SECCION TÍTULO PRINCIPAL*/
+.section-title-principal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+}
+
+.section-title-principal__title {
+  font-size: 4rem;
+  font-weight: 100;
+  margin: 5rem 5rem 0 5rem;
+}
+
+.section-title-principal__parrafo {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 30%;
+}
+
+.box-yellow {
+  width: 8rem;
+  height: 8rem;
+  background-color: var(--color-buff);
+  position: absolute;
+  bottom: 0;
+}
+
+.box-orange-icon {
+  width: 8rem;
+  height: 8rem;
+  background-color: var(--color-flame);
+  position: absolute;
+  bottom: 1.3rem;
+  left: -5%;
+}
+
+.box-orange-icon__icon {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.last-seccion {
+  position: relative;
+}
+
+.section-conocenos {
+  width: 70%;
+  position: relative;
+  padding: 3% 4%;
+}
+
+.section-conocenos__parrafo {
+  width: 30%;
+  font-size: 1.2rem;
+}
+
+.section-conocenos__titulo {
+  width: 30%;
+  margin-bottom: 1%;
+}
+
+.section-conocenos--cuadro-azul {
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--color-blue-de-france);
+}
+
+.section-conocenos-img {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.section-conocenos-img--tamaño {
+  width: 100%;
+  height: 100%;
+}
+
+.section-conocenos__imagen {
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  top: 25px;
+  right: 10%;
+  object-fit: cover;
+}
+
+.section-conocenos__imagen-tres {
+  position: absolute;
+  width: 10%;
+  height: 50%;
+  top: 0;
+  left: 92%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

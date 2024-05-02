@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*RESET DE LOS ELEMTOS <a> EN EL MENU DE NAVEGACIÓN*/
+a{
+  text-decoration: none;
+}
+
+.nav__link {
+  color: var(--color-spanish-grey);
+  margin: 1rem;
+}
