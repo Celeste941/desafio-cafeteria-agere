@@ -209,7 +209,7 @@ main {
 .container-conocenos__imagen-mapa {
   position: absolute;
   width: 50%;
-  height: 100%;
+  height: 80%;
   top: 25px;
   right: 10%;
   object-fit: cover;
@@ -220,7 +220,7 @@ main {
   width: 10%;
   height: 50%;
   top: 0;
-  left: 92%;
+  left: 95%;
   object-fit: cover;
   z-index: 1;
 }
@@ -230,7 +230,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%;
+  height: 35vh;
 }
 
 .container-img-conocenos--size {
