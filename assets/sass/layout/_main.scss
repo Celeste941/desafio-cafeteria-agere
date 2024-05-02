@@ -1,9 +1,11 @@
 main {
   position: relative;
+  height: 55vh;
 }
 .contenedor__img {
   width: 100%;
 }
+
 .contenedor {
   position: relative;
   width: 70%;
@@ -16,17 +18,18 @@ main {
   right: 0;
   background-color: white;
   padding: 15px;
+  width: 60%;
+  height: 28%;
 }
 
 .info-container__item {
   width: 30%;
-  font-size: 80%;
   display: inline-block;
   vertical-align: top;
 }
 
 .info-container__cantidad {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 /*SECCION TÍTULO PRINCIPAL*/
@@ -39,7 +42,7 @@ main {
 }
 
 .section-title-principal__title {
-  font-size: 4rem;
+  font-size: 70px;
   font-weight: 100;
   margin: 5rem 5rem 0 5rem;
 }
