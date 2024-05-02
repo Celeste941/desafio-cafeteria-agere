@@ -73,7 +73,7 @@ body {
   background-color: #f2f2f2;
   padding: 20px;
   width: 100%;
-  height: 12vh;
+  height: 12%;
   padding: 2rem;
 }
 
@@ -95,7 +95,7 @@ body {
 
 main {
   position: relative;
-  height: 55vh;
+  height: 55%;
 }
 
 .contenedor__img {
@@ -176,7 +176,7 @@ main {
 
 .last-seccion {
   position: relative;
-  height: 35vh;
+  height: 35%;
 }
 
 .container-conocenos {
